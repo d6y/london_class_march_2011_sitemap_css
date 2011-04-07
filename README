@@ -1,0 +1,14 @@
+This is one of the projects used at @dpp's Lift course held at Skillsmatter, London, March 2010.
+
+The code is the state of the code at the end of the class, and as such probably isn't going to make a lot of sense but might contain something someone can find useful.
+
+From my notes:
+ * Demo of Menu.param, using an on-line forum as an example. (A forum contains a number of discussion threads and each thread contains a number of messages).
+ *  main files touched: Boot.scala, model/Forum.scala, snippet/ForumStuff.scala  webapp/forums.html, forums/star.html, forums/star/star.html
+ * See: http://stable.simply.liftweb.net/#toc-Subsection-3.4.5 and http://stable.simply.liftweb.net/#toc-Subsection-3.2.7
+ 
+Run with:
+
+  $ sbt
+  > update
+  > jetty-run
